@@ -1,0 +1,27 @@
+/* To make the form as wide as its containing element */
+div#widget-container {
+  width: 100%;
+}
+
+/* To change the label positioning */
+.has-float-label.ng-scope {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.has-float-label input, .has-float-label select, .has-float-label .form-control:focus, .has-float-label .ui-select-toggle, .has-float-label .ui-select-multiple.ui-select-bootstrap input.ui-select-search, .has-float-label .btn-group button, .has-float-label textarea {
+  font-weight: normal;
+  line-height: 24px;
+  padding: 6px 16px;
+}
+
+label.has-float-label > span {
+  font-size: 16px !important;
+  font-weight: bold;
+  left: 0 !important;
+  line-height: 1.4em !important;
+  margin-bottom: 0.4em;
+  opacity: 1 !important;
+  position: relative !important;
+  top: 0 !important;
+}
