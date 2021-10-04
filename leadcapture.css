@@ -25,3 +25,10 @@ label.has-float-label > span {
   position: relative !important;
   top: 0 !important;
 }
+.o--App--leadCaptureWidget .o--Person--Background.o--FormGroup--formGroup:after {
+  content: 'Wenn du studierst, trage hier dein Studienfach ein. Bist du Young Professional, nenne hier deinen fachlichen Hintergrund und deinen aktuellen Job Titel.';
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 5px;
+}
